@@ -1,0 +1,40 @@
+name: Main
+version: 0.1
+description: Core
+author: TeeZ0
+main: cz.teez0.main.main
+api-version: 1.15
+commands:
+  help:
+    description: Help command
+    usage: /help
+  ban:
+    description: Forfits players connection attempts
+    usage: /ban <Player> [Duration] <Reason>
+  unban:
+    description: Prematurely cancels forfittion of players connection attemps
+    usage: /unban <Player>
+  kick:
+    description: Disconnects player from the server with given message
+    usage: /kick <Player> <Reason>
+  setspawn:
+    description: Sets world spawnpoint on players position
+    usage: /setspawn
+  spawn:
+    description: Teleports player to set spawnpoint
+    usage: /spawn [Player]
+  tpa:
+    description: Sends teleport request to player
+    usage: /tpa <Player>
+  tpdeny:
+    description: Denies teleport request
+    usage: /tpdeny
+  tpaccept:
+    description: Accepts teleport request
+    usage: /tpaccept
+  sethome:
+    description: Stores players coordinates as home
+    usage: /sethome
+  home:
+    description: Teleports player to set home
+    usage: /home
